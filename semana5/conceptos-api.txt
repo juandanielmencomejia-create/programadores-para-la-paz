@@ -1,0 +1,18 @@
+app.post('/reporte', (req, res) => {
+  const mensaje = req.body.mensaje;
+  res.json({
+    estado: "Reporte recibido",
+    mensaje: mensaje
+  });
+});
+
+Qué hace esta ruta:
+Esta ruta utiliza el método POST para recibir información enviada por un usuario hacia el 
+servidor. En este caso, recibe un mensaje dentro del cuerpo de la solicitud y responde con 
+un mensaje en formato JSON confirmando que el reporte fue recibido correctamente.
+
+Para qué podría servir en una aplicación comunitaria:
+Esta ruta podría servir en una aplicación comunitaria para que los ciudadanos envíen reportes 
+sobre problemas de su comunidad, como daños en las calles, fallas en servicios públicos o 
+situaciones de seguridad. De esta manera, la plataforma puede recibir y organizar la información
+ para darle seguimiento.
