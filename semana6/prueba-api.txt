@@ -1,0 +1,12 @@
+
+La respuesta devuelve el servidor es:
+{
+  "estado": "Datos recibidos",
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+
+Donde se confirma que se recibieron los datos y luego los enumera y 
+describe literalmente a como fueron enviados. Lo cual indica que la
+petición fue exitosa y que la estructura de comunicación entre el 
+cliente y el servidor es funcional.

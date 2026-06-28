@@ -1,0 +1,15 @@
+Escribe un ejemplo de JSON que podría enviar un ciudadano para reportar
+una incidencia.
+
+{
+  "tipo": "mascota perdida",
+  "descripcion": "La comunidad reporta que una mascota no ha sido vista desde hace varios días."
+}
+
+Resultados:
+
+{
+  "mensaje": "Incidencia registrada",
+  "tipo": "mascota perdida",
+  "descripcion": "La comunidad reporta que una mascota no ha sido vista desde hace varios días."
+}
