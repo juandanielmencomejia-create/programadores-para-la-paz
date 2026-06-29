@@ -1,0 +1,29 @@
+En la terminal ejecuta:
+uname -a
+whoami
+
+uname -a muestra:
+MINGW64_NT-10.0-19045 DESKTOP-2BHL33J 3.6.6-1cdd4371.x86_64
+2026-01-15 22:20 UTC x86_64 Msys
+
+whoami:
+ANTHONY
+
+Escribe:
+
+Qué información muestra cada comando.
+uname -a muestra información del sistema: tipo de sistema operativo 
+(MINGW64_NT-10.0-19045), nombre del equipo (DESKTOP-2BHL33J), versión 
+del kernel (3.6.6-1cdd4371.x86_64), fecha/hora de compilación y 
+arquitectura (x86_64 Msys).
+whoami muestra el nombre del usuario actual (ANTHONY).
+
+
+Por qué es útil conocer información del sistema cuando se administra
+un servidor.
+Conocer la versión del kernel y la arquitectura permite saber qué
+parches de seguridad aplicar, qué software es compatible y cómo 
+optimizar el rendimiento. Saber el usuario activo ayuda a auditar 
+quién ejecuta comandos y a verificar que se estén usando los permisos 
+correctos, lo cual es esencial para rastrear acciones o detectar
+accesos no autorizados.

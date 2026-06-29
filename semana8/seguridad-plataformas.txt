@@ -1,0 +1,20 @@
+Escribe 5 prácticas de seguridad que deberían aplicarse en una
+plataforma digital comunitaria:
+
+1.	Verificación de identidad: exigir autenticación de dos factores para
+acceder a cuentas, para evitar accesos no autorizados, aunque la 
+contraseña sea robada.
+
+2.	Moderación y filtrado de contenido: implementar sistemas 
+automáticos y humanos que detecten y bloqueen mensajes con malware,
+phishing, odio o spam antes de que sean visibles para la comunidad.
+
+3.	Cifrado de datos: usar HTTPS (SSL/TLS) para toda la comunicación y 
+cifrar la información sensible almacenada para protegerla ante brechas.
+
+4.	Política de contraseñas robusta y educación: exigir contraseñas 
+largas y complejas, y ofrecer consejos periódicos a los usuarios sobre 
+cómo detectar estafas o enlaces sospechosos.
+
+5.	Registro de auditoría y control de permisos: mantener un historial 
+de acciones clave y aplicar el principio de "mínimo privilegio".
